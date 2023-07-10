@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Training
 {
-    internal class EvenOrOdd
+    class OddOrEven
     {
+        public void CheckOddOrEven()
+        {
+            Console.WriteLine("Enter the number");
+            int n = Convert.ToInt32(Console.ReadLine());
+            if (n % 2 == 0)
+            {
+                Console.WriteLine("The number is even");
+            }
+            else
+            {
+                Console.WriteLine("The number is odd");
+            }
+        }
     }
 }
